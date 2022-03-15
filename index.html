@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency converter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="CSS/style.css" rel="stylesheet">
+    <link href="CSS/body.css" rel="stylesheet">
+    <link href="CSS/formStyle.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="JS/script.js"></script>
+</head>
+
+<body class="body">
+    <form class="formStyle js-form">
+        <fieldset class="formStyle__fieldset">
+            <p class="formStyle__title">Currency converter</p>
+            <p class="formStyle__legend">US Dollar / Euro to Polish Zloty conversion</p>
+            <ul>
+                <li class="formStyle__list">
+                    <label><span class="formStyle__labelText"> Amount: </span><input class="js-amount" name="amount"
+                            min="0" type="number" required step="any"></label>
+                </li>
+                <li class="formStyle__list">
+                    <label><span class="formStyle__labelText"> Choose currency: </span><select name="currency">
+                            <option value="dollar">USD - US Dollar</option>
+                            <option value="euro>">EUR - Euro</option>
+                        </select>
+                    </label>
+                </li>
+                <li class="formStyle__list">
+                    <label><span class="formStyle__labelText"> Rate: </span><input class="js-rate" name="rate" min="0"
+                            type="number" required step="any"></label>
+                </li>
+                <li class="formStyle__list">
+                    <label><span class="formStyle__labelText"> Convert to: </span><input value="PLN - Polish Zloty"
+                            name="convertTo" readonly></label>
+                </li>
+            </ul>
+
+            <button class="formStyle__button">Convert</button>
+
+            <p class="formStyle__result">Result =<span class="js-result">0</span> PLN</p>
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

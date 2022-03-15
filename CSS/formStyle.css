@@ -1,0 +1,71 @@
+.formStyle {
+
+background-color: rgba(215, 252, 252, 0.85);
+max-width: 500px;
+margin: auto;
+border-radius: 5px;
+box-shadow: 2px 2px 2px;
+padding: 15px;
+margin-top: 100px;
+
+}
+
+.formStyle__title {
+
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 2%;
+    letter-spacing: 1px;
+
+}
+
+.formStyle__legend {
+
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.formStyle__fieldset {
+
+    border-color: rgb(121, 207, 200);
+    border-radius: 5px;
+}
+
+.formStyle__button {
+
+    width: 100px;
+    border: none;
+    background-color: rgb(121, 207, 200);
+    border-radius: 5px;
+    padding: 5px;
+    margin: auto;
+    margin-left: 175px;
+}
+
+.formStyle__button:hover {
+
+    background-color: rgb(156, 221, 217) ;
+}
+
+.formStyle__result {
+
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+    
+}
+
+.formStyle__labelText {
+    max-width: 130px;
+    display: inline-block;
+    width: 100%;
+}
+
+.formStyle__list {
+
+    list-style: none;
+    padding: 5px;
+}
