@@ -33,12 +33,6 @@
     border-radius: 5px;
 }
 
-
-.formStyle__button:hover {
-
-    background-color: rgb(156, 221, 217);
-}
-
 .formStyle__result {
 
     font-size: x-large;
