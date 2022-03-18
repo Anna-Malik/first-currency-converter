@@ -1,10 +1,10 @@
-.button__container {
+.button {
 
     display: flex;
     justify-content: center;
 }
 
-.button__container--style {
+.button__style {
 
     width: 100px;
     border: none;
@@ -14,7 +14,7 @@
 
 }
 
-.button__container--style:hover {
+.button__style:hover {
 
     background-color: rgb(156, 221, 217);
 }

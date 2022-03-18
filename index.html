@@ -15,7 +15,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap" rel="stylesheet">
     <script defer src="JS/script.js"></script>
 </head>
-
 <body class="body">
     <form class="formStyle js-form">
         <fieldset class="formStyle__fieldset">
@@ -27,29 +26,28 @@
                             min="0" type="number" required step="any"></label>
                 </li>
                 <li class="formStyle__list">
-                    <label><span class="formStyle__labelText"> Choose currency: </span><select name="currency">
-                            <option value="dollar">USD - US Dollar</option>
-                            <option value="euro>">EUR - Euro</option>
+                    <label><span class="formStyle__labelText"> Choose currency: </span><select name="currency"
+                            class="js-currency">
+                            <option value="USD">USD - US Dollar</option>
+                            <option value="EUR">EUR - Euro</option>
                         </select>
                     </label>
                 </li>
-                <li class="formStyle__list">
-                    <label><span class="formStyle__labelText"> Rate: </span><input class="js-rate" name="rate" min="0"
-                            type="number" required step="any"></label>
-                </li>
+                <div class="formStyle__rates">
+                    <p><strong>Rates (https://xe.com / 18.03.2022)</strong></p>
+                    <p>1 USD = 4.228 PLN</p>
+                    <p>1 EUR = 4.685 PLN</p>
+                </div>
                 <li class="formStyle__list">
                     <label><span class="formStyle__labelText"> Convert to: </span><input value="PLN - Polish Zloty"
                             name="convertTo" readonly></label>
                 </li>
             </ul>
-<div class="button__container">
-            <button class="button__container--style">Convert</button></div>
-
+            <div class="button">
+                <button class="button button__style">Convert</button>
+            </div>
             <p class="formStyle__result">Result =<span class="js-result">0</span> PLN</p>
-
         </fieldset>
     </form>
-
 </body>
-
 </html>
